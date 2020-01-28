@@ -26,9 +26,17 @@ grad-CAM 및 LSTM 모델 트레이닝 및 인퍼런싱
 .json 파일로 만들어 http://cs.stanford.edu/people/karpathy/deepimagesent/caption_datasets.zip 의 양식에 맞춤
 
 ## 트레이닝
+### grad-CAM 트레이닝
 - Learning rate를 0.0002부터 시작하여, 0.002까지 순차적으로 늘림
 - Batch Size는 크면 좋지만 적을경우 한 Class의 이미지 갯수를 전부 포함할 정도로 설정
 - GPU 사용 시 옵션을 바꿔줘야 하는 부분 있음
+### LSTM 트레이닝
+- Learning rate를 0.0002부터 시작하여, 0.002까지 순차적으로 늘림
+- Batch Size는 제일 긴 한 문장의 길이
+- Text Sentence 부분이 짧으면 나머지 부분은 Pad가 들어감
 
 ## 인퍼런싱
+### grad-CAM 인퍼런싱
 ![이력서](https://user-images.githubusercontent.com/14182583/73243204-5f956380-41ea-11ea-85bf-2ac3f511a417.jpg)
+### LSTM 인퍼런싱
+- X
