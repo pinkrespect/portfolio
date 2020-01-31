@@ -1,4 +1,4 @@
-# 이미지의 결함물 검출을 위한 grad-CAM
+# 이미지의 결함 검출을 위한 grad-CAM
 ## 참고 논문
 https://arxiv.org/abs/1610.02391
 https://arxiv.org/abs/1502.03044
